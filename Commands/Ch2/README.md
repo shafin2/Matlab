@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains code snippets and examples for basic image processing operations in MATLAB/Octave. Each section demonstrates fundamental techniques essential for understanding and working with images.
+This folder contains code snippets and examples for basic commands from Chapter 2, to which I think you can add more and send me a pull request (PR)
 
 ## Contents
 
