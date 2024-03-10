@@ -12,5 +12,3 @@ The output of the `circle.m` script is saved as `output.jpg`. You can view the g
 ![Output Image](output.jpg)
 
 ---
-
-Feel free to enhance the README further if needed!
