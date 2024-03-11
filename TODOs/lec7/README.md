@@ -13,7 +13,7 @@ The output of the `Smoothing_3x3`
 <table>
   <tr>
     <td><img src="./Images/original.jpeg" alt="Original Image" width="300"/></td>
-    <td><img src="./Images/result_3x3.jpg" alt="Generated Image" width="300"/></td>
+    <td><img src="./Images/result_3x3.png" alt="Generated Image" width="300"/></td>
   </tr>
 </table>
 
@@ -26,7 +26,7 @@ The output of the `Generic_Code`
 <table>
   <tr>
     <td><img src="./Images/original.jpeg" alt="Original Image" width="300"/></td>
-    <td><img src="./Images/result_5x5.jpg.jpg" alt="Generated Image" width="300"/></td>
+    <td><img src="./Images/result_5x5.png" alt="Generated Image" width="300"/></td>
   </tr>
 </table>
 

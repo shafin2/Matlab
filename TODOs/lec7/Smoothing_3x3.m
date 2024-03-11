@@ -1,4 +1,4 @@
-A = double(rgb2gray(imread('n.jpeg')));
+A = double(rgb2gray(imread('./Images/original.jpeg')));
 [R, C] = size(A);
 
 B = zeros(R, C);
