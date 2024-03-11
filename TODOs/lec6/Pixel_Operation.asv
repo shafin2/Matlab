@@ -1,8 +1,0 @@
-img = (rgb2gray(imread("img.jpeg")));
-[r,c] = size(img);
-B=zeros(r,c);
-for i=1:r
-    for j=1:c
-        B(i,j)=
-
-imshow(img);

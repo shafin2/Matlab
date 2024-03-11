@@ -22,7 +22,7 @@ The output of the `square.m` script is saved as `square.jpg`. You can view the g
 # Pixel Opertions
 
 ## Output1
-
+The output of the `Pixel_Operation.m`
 B(i,j) = img(i,j) + 100;
 
 <table>
@@ -33,7 +33,7 @@ B(i,j) = img(i,j) + 100;
 </table>
 
 ## Output2
-
+The output of the `Pixel_Operation.m`
 B(i,j) = img(i,j) - 100;
 
 <table>
@@ -44,7 +44,7 @@ B(i,j) = img(i,j) - 100;
 </table>
 
 ## Output3
-
+The output of the `Pixel_Operation.m`
 Negative Image
 B(i,j) = 255 - img(i,j);
 
