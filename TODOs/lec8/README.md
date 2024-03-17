@@ -42,8 +42,8 @@ Just change filter size in code
 
 <table>
   <tr>
-    <td><img src="./images/gray_img.png" alt="Original Image" width="300"/></td>
-    <td><img src="./images/final_img.png" alt="Generated Image" width="300"/></td>
+    <td><img src="./images/gray_img.png" alt="Original Image" width="400"/></td>
+    <td><img src="./images/final_img.png" alt="Generated Image" width="400"/></td>
   </tr>
 </table>
 
@@ -51,15 +51,17 @@ Just change filter size in code
 
 <table>
   <tr>
-    <td><img src="./images/gray_img.png" alt="Original Image" width="300"/></td>
-    <td><img src="./images/20x20.png" alt="Generated Image" width="300"/></td>
+    <td><img src="./images/gray_img.png" alt="Original Image" width="400"/></td>
+    <td><img src="./images/20x20.png" alt="Generated Image" width="400"/></td>
   </tr>
 </table>
 
+### 40x40
+
 <table>
   <tr>
-    <td><img src="./images/gray_img.png" alt="Original Image" width="300"/></td>
-    <td><img src="./images/40x40.png" alt="Generated Image" width="300"/></td>
+    <td><img src="./images/gray_img.png" alt="Original Image" width="400"/></td>
+    <td><img src="./images/40x40.png" alt="Generated Image" width="400"/></td>
   </tr>
 </table>
 ---
