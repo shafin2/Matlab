@@ -51,8 +51,8 @@ Just change filter size in code
 
 <table>
   <tr>
-    <td><img src="./Images/gray_img.png" alt="Original Image" width="300"/></td>
-    <td><img src="./Images/20x20.png" alt="Generated Image" width="300"/></td>
+    <td><img src="./images/gray_img.png" alt="Original Image" width="300"/></td>
+    <td><img src="./images/20x20.png" alt="Generated Image" width="300"/></td>
   </tr>
 </table>
 
