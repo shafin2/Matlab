@@ -36,14 +36,14 @@ Just change filter size in code
 
 ![output Image](images/40x40.png)
 
-## Side by Side Comparison
+## Side by Side Comparisons
 
 ### 10x10
 
 <table>
   <tr>
-    <td><img src="./Images/gray_img.png" alt="Original Image" width="300"/></td>
-    <td><img src="./Images/final_img.png" alt="Generated Image" width="300"/></td>
+    <td><img src="./images/gray_img.png" alt="Original Image" width="300"/></td>
+    <td><img src="./images/final_img.png" alt="Generated Image" width="300"/></td>
   </tr>
 </table>
 
@@ -56,4 +56,10 @@ Just change filter size in code
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td><img src="./images/gray_img.png" alt="Original Image" width="300"/></td>
+    <td><img src="./images/40x40.png" alt="Generated Image" width="300"/></td>
+  </tr>
+</table>
 ---
