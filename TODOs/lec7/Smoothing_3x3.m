@@ -13,3 +13,5 @@ for i = 2:R-1
 end
 
 imshow(uint8(B));
+
+userpath()
