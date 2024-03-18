@@ -1,0 +1,25 @@
+
+img = double(rgb2gray(imread("./images/img.jpeg")));
+
+function output_image = my_convolution(input_image, kernel)
+  [rows, cols] = size(input_image);
+  [k_rows, k_cols] = size(kernel);
+  pad_size = floor([k_rows k_cols] / 2);
+  padded_image = padarray(input_image, pad_size, 'both');
+  output_image = zeros(rows, cols);
+  for i = 1:rows
+    for j = 1:cols
+      image_window = padded_image(i:i+k_rows-1, j:j+k_cols-1);
+      
+
+      % Find the minimum value in the window
+      min_value = min(image_window(:));
+      
+      % Assign the minimum value to the corresponding pixel in filtered image
+      filtered_image(i-pad_size, j-pad_size) = min_value;
+      product = image_window .* kernel;
+      new = reshape(product, 1, []);
+      output_image(i, j) = sum(new);
+    end
+  end
+end
