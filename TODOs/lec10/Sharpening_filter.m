@@ -1,12 +1,12 @@
 % import convultion/average code 
 addpath('../../GenericCode/')
 
-img = double(rgb2gray(imread("./images/img.png")));
+img = double(rgb2gray(imread("./images/a.jpeg")));
 
 figure; imshow(uint8(img));
 
 % Example 1 : brighten then image
-% filter = ones(3,3);
+ filter = ones(3,3);
 
 % Example 2 : identeity
 % filter = [0 0 0; 0 1 0; 0 0 0];
@@ -31,7 +31,7 @@ figure; imshow(uint8(img));
 % filter = [-1 -1 -1; -1 9 -1; -1 -1 -1];
 
 % Example 9 : (Emboss)
-filter = [-1 -1 0; -1 0 1; 0 1 1];
+% filter = [-1 -1 0; -1 0 1; 0 1 1];
 
 % sharpen
 %filter = [0 -1 0; -1 5 -1; 0 -1 0];
