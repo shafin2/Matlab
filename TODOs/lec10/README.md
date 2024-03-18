@@ -94,4 +94,5 @@ filter = [-1 -1 0; -1 0 1; 0 1 1]
     <td><img src="./images/embos.png" alt="Generated Image" width="400"/></td>
   </tr>
 </table>
+
 ---
