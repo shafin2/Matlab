@@ -8,17 +8,20 @@ Welcome to my MATLAB repository! This repository contains code, functions, and m
     - [Ch2](Commands/Ch2)
 
 - [Generic Code](GenericCode)
-    - [Convolution](GenericCode/my_convolution)
-    - [Mask](GenericCode/my_mask)
+    - [Convolution](GenericCode/my_convolution.m)
+    - [Mask](GenericCode/my_mask.m)
   
-  
-- **[Generic Code](Generic%20Code):** Here, you'll find generic MATLAB functions and utility scripts that can be reused across different projects.
-
-- **[Todos](Todos):** This directory includes lecture-wise to-do lists ([lec1](Todos/lec1), [lec2](Todos/lec2), etc.) containing tasks, exercises, or goals related to specific lectures or learning sessions.
+- [TODOs](TODOs)
+    - [Lecture 5](TODOs/lec5)
+    - [Lecture 6](TODOs/lec6)
+    - [Lecture 7](TODOs/lec7)
+    - [Lecture 8](TODOs/lec8)
+    - [Lecture 9](TODOs/lec9)
+    - [Lecture 10](TODOs/lec10)
 
 ## Contributions 🚀
 
-Contributions, suggestions, and improvements are highly appreciated! Feel free to fork this repository and send me collaboration requests. If you notice any errors or omissions, don't hesitate to submit pull requests (PRs) with your fixes. Your contributions will help enhance the quality and usefulness of this repository for the MATLAB community.
+Contributions, suggestions, and improvements are highly appreciated! Feel free to fork this repository or send me collaboration requests. 
 
 ## Note 📝
 
