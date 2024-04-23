@@ -18,6 +18,7 @@ Welcome to my MATLAB repository! This repository contains code, functions, and m
     - [Lecture 8](TODOs/lec8)
     - [Lecture 9](TODOs/lec9)
     - [Lecture 10](TODOs/lec10)
+    - [Lecture 11](TODOs/lec11)
 
 ## Contributions 🚀
 

@@ -1,7 +1,7 @@
 
 ---
 
-# Edge finding Filter examples
+# Other Edge finding Filter examples
 
 ## All edges 
 filter = [-1 -1 -1; -1 8 -1; -1 -1 -1]
@@ -100,5 +100,24 @@ If center weight of mask is +ve then it give edges values in +ve, that you need 
     <td><img src="./images/Center_w8_negative.png" alt="Generated Image" width="400"/></td>
   </tr>
 </table>
+
+
+### Sobel vs. Laplacian Filter (for Edge Detection)
+
+#### Sobel Filter:
+
+- **First-order Derivative:** Measures intensity change (gradient).
+- **Directional Information:** Identifies horizontal, vertical, and diagonal edges.
+- **Efficient:** Utilizes simple 3x3 kernels for fast processing.
+- **Less Sensitive to Noise:** Offers better noise handling compared to Laplacian.
+
+#### Laplacian Filter:
+
+- **Second-order Derivative:** Measures the rate of intensity change.
+- **No Directional Information:** Only highlights areas of rapid intensity change (potential edges).
+- **More Sensitive to Noise:** Can amplify noise if not pre-processed adequately.
+- **Simpler Kernel:** Utilizes a single kernel for basic implementation.
+
+These filters serve distinct purposes in edge detection, with Sobel excelling in directional edge detection and noise reduction, while Laplacian focuses on highlighting rapid intensity changes but requires careful noise handling. Understanding their differences aids in selecting the appropriate filter for specific image processing tasks.
 
 ---
