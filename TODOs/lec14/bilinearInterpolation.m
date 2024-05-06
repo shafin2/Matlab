@@ -1,8 +1,8 @@
 img = double(rgb2gray(imread("./images/a.png")));
 [R, C] = size(img);
 % for scaling
-a0 = 4;
-b1 = 4; 
+a0 = 1;
+b1 = 1; 
 % other should be zero besides a0 & b1 for scaling
 
 % for translation
@@ -52,8 +52,8 @@ for i = 1:r1
             down_per = 1 - up_per;
            end
 
-           m1 = ((img(n1,n3)*r1_left_per)+(img(n1,n4)*r1_right_per));
-           m2 = ((img(n2,n3)*r2_right_per)+(img(n2,n4)*r1_right_per));
+           m1 = round((img(n1,n3)*r1_left_per)+(img(n1,n4)*r1_right_per));
+           m2 = round((img(n2,n3)*r2_right_per)+(img(n2,n4)*r1_right_per));
            value = round(((m1*up_per)+(m2*down_per)));
            B(i,j) = value;
         end
