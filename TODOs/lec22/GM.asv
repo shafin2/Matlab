@@ -1,0 +1,11 @@
+% Read an image (grayscale)
+img = double(imread('images/binary.png')); % Replace 'cameraman.tif' with your image file
+[R,C] = size(img);
+
+for i = 1:R
+    for j = 1:C
+        filter = img(i-1:i+1,j-1:j+1);
+        mul = prod(prod(filter));
+        
+    end
+end
